@@ -1,19 +1,404 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-05-03 05:17:07</timestamp>
+  <timestamp>2025-08-02 23:54:45</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>5</methodCount>
-    <crapMethodCount>0</crapMethodCount>
-    <crapLoad>0</crapLoad>
-    <totalCrap>16</totalCrap>
-    <crapMethodPercent>0</crapMethodPercent>
+    <methodCount>39</methodCount>
+    <crapMethodCount>4</crapMethodCount>
+    <crapLoad>54</crapLoad>
+    <totalCrap>993</totalCrap>
+    <crapMethodPercent>10.26</crapMethodPercent>
   </stats>
   <methods>
     <method>
-      <package>Playground\Make\Factory</package>
-      <className>Playground\Make\Factory\ServiceProvider</className>
+      <package>Playground\Make\Postman\Building</package>
+      <className>Playground\Make\Postman\Building\BuildCollection</className>
+      <methodName>init_postman_collection</methodName>
+      <methodSignature>init_postman_collection(): void</methodSignature>
+      <fullMethod>init_postman_collection(): void</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Building</package>
+      <className>Playground\Make\Postman\Building\BuildCollection</className>
+      <methodName>save_postman_collection</methodName>
+      <methodSignature>save_postman_collection(): ?string</methodSignature>
+      <fullMethod>save_postman_collection(): ?string</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Building</package>
+      <className>Playground\Make\Postman\Building\BuildInfo</className>
+      <methodName>build_collection_info</methodName>
+      <methodSignature>build_collection_info(): void</methodSignature>
+      <fullMethod>build_collection_info(): void</fullMethod>
+      <crap>30</crap>
+      <complexity>5</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Concerns</package>
+      <className>Playground\Make\Postman\Concerns\Packages</className>
+      <methodName>load_controller_package</methodName>
+      <methodSignature>load_controller_package(mixed $file, bool $apply): void</methodSignature>
+      <fullMethod>load_controller_package(mixed $file, bool $apply): void</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Concerns</package>
+      <className>Playground\Make\Postman\Concerns\Packages</className>
+      <methodName>load_model_package</methodName>
+      <methodSignature>load_model_package(mixed $file, bool $apply): void</methodSignature>
+      <fullMethod>load_model_package(mixed $file, bool $apply): void</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Concerns</package>
+      <className>Playground\Make\Postman\Concerns\Packages</className>
+      <methodName>load_model_revision</methodName>
+      <methodSignature>load_model_revision(mixed $file, bool $apply): void</methodSignature>
+      <fullMethod>load_model_revision(mixed $file, bool $apply): void</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>setOptions</methodName>
+      <methodSignature>setOptions(array $options): self</methodSignature>
+      <fullMethod>setOptions(array $options): self</fullMethod>
+      <crap>132</crap>
+      <complexity>11</complexity>
+      <coverage>0</coverage>
+      <crapLoad>11</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>addAuthenticationSteps</methodName>
+      <methodSignature>addAuthenticationSteps(array $options): self</methodSignature>
+      <fullMethod>addAuthenticationSteps(array $options): self</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>addFolder</methodName>
+      <methodSignature>addFolder(string $key, array $options): self</methodSignature>
+      <fullMethod>addFolder(string $key, array $options): self</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>info</methodName>
+      <methodSignature>info(): ?Playground\Make\Postman\Configuration\Info</methodSignature>
+      <fullMethod>info(): ?Playground\Make\Postman\Configuration\Info</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>folders</methodName>
+      <methodSignature>folders(): array</methodSignature>
+      <fullMethod>folders(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Collection</className>
+      <methodName>jsonSerialize</methodName>
+      <methodSignature>jsonSerialize(): mixed</methodSignature>
+      <fullMethod>jsonSerialize(): mixed</fullMethod>
+      <crap>12</crap>
+      <complexity>3</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>setOptions</methodName>
+      <methodSignature>setOptions(array $options): self</methodSignature>
+      <fullMethod>setOptions(array $options): self</fullMethod>
+      <crap>132</crap>
+      <complexity>11</complexity>
+      <coverage>0</coverage>
+      <crapLoad>11</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>_postman_id</methodName>
+      <methodSignature>_postman_id(): string</methodSignature>
+      <fullMethod>_postman_id(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>name</methodName>
+      <methodSignature>name(): string</methodSignature>
+      <fullMethod>name(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>schema</methodName>
+      <methodSignature>schema(): string</methodSignature>
+      <fullMethod>schema(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>_exporter_id</methodName>
+      <methodSignature>_exporter_id(): string</methodSignature>
+      <fullMethod>_exporter_id(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Info</className>
+      <methodName>_collection_link</methodName>
+      <methodSignature>_collection_link(): string</methodSignature>
+      <fullMethod>_collection_link(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>setOptions</methodName>
+      <methodSignature>setOptions(array $options): self</methodSignature>
+      <fullMethod>setOptions(array $options): self</fullMethod>
+      <crap>306</crap>
+      <complexity>17</complexity>
+      <coverage>0</coverage>
+      <crapLoad>17</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>addModels</methodName>
+      <methodSignature>addModels(array $options): self</methodSignature>
+      <fullMethod>addModels(array $options): self</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>description</methodName>
+      <methodSignature>description(): string</methodSignature>
+      <fullMethod>description(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>model_package</methodName>
+      <methodSignature>model_package(): string</methodSignature>
+      <fullMethod>model_package(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>controller_package</methodName>
+      <methodSignature>controller_package(): string</methodSignature>
+      <fullMethod>controller_package(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>_postman_id</methodName>
+      <methodSignature>_postman_id(): string</methodSignature>
+      <fullMethod>_postman_id(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>schema</methodName>
+      <methodSignature>schema(): string</methodSignature>
+      <fullMethod>schema(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>_exporter_id</methodName>
+      <methodSignature>_exporter_id(): string</methodSignature>
+      <fullMethod>_exporter_id(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>_collection_link</methodName>
+      <methodSignature>_collection_link(): string</methodSignature>
+      <fullMethod>_collection_link(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>models</methodName>
+      <methodSignature>models(): array</methodSignature>
+      <fullMethod>models(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>withAuthSanctum</methodName>
+      <methodSignature>withAuthSanctum(): bool</methodSignature>
+      <fullMethod>withAuthSanctum(): bool</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Configuration</package>
+      <className>Playground\Make\Postman\Configuration\Postman</className>
+      <methodName>withAuthSession</methodName>
+      <methodSignature>withAuthSession(): bool</methodSignature>
+      <fullMethod>withAuthSession(): bool</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Console\Commands</package>
+      <className>Playground\Make\Postman\Console\Commands\PostmanMakeCommand</className>
+      <methodName>prepareOptions</methodName>
+      <methodSignature>prepareOptions(): void</methodSignature>
+      <fullMethod>prepareOptions(): void</fullMethod>
+      <crap>210</crap>
+      <complexity>14</complexity>
+      <coverage>0</coverage>
+      <crapLoad>14</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Console\Commands</package>
+      <className>Playground\Make\Postman\Console\Commands\PostmanMakeCommand</className>
+      <methodName>handle</methodName>
+      <methodSignature>handle()</methodSignature>
+      <fullMethod>handle()</fullMethod>
+      <crap>20</crap>
+      <complexity>4</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Console\Commands</package>
+      <className>Playground\Make\Postman\Console\Commands\PostmanMakeCommand</className>
+      <methodName>getStub</methodName>
+      <methodSignature>getStub(): string</methodSignature>
+      <fullMethod>getStub(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Console\Commands</package>
+      <className>Playground\Make\Postman\Console\Commands\PostmanMakeCommand</className>
+      <methodName>getOptions</methodName>
+      <methodSignature>getOptions(): array</methodSignature>
+      <fullMethod>getOptions(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman\Console\Commands</package>
+      <className>Playground\Make\Postman\Console\Commands\PostmanMakeCommand</className>
+      <methodName>getConfigurationFilename</methodName>
+      <methodSignature>getConfigurationFilename(): string</methodSignature>
+      <fullMethod>getConfigurationFilename(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>Playground\Make\Postman</package>
+      <className>Playground\Make\Postman\ServiceProvider</className>
       <methodName>boot</methodName>
       <methodSignature>boot()</methodSignature>
       <fullMethod>boot()</fullMethod>
@@ -23,8 +408,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Factory</package>
-      <className>Playground\Make\Factory\ServiceProvider</className>
+      <package>Playground\Make\Postman</package>
+      <className>Playground\Make\Postman\ServiceProvider</className>
       <methodName>boot_commands</methodName>
       <methodSignature>boot_commands(): array</methodSignature>
       <fullMethod>boot_commands(): array</fullMethod>
@@ -34,8 +419,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Factory</package>
-      <className>Playground\Make\Factory\ServiceProvider</className>
+      <package>Playground\Make\Postman</package>
+      <className>Playground\Make\Postman\ServiceProvider</className>
       <methodName>register</methodName>
       <methodSignature>register(): void</methodSignature>
       <fullMethod>register(): void</fullMethod>
@@ -45,24 +430,13 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Factory</package>
-      <className>Playground\Make\Factory\ServiceProvider</className>
+      <package>Playground\Make\Postman</package>
+      <className>Playground\Make\Postman\ServiceProvider</className>
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
       <crap>6</crap>
       <complexity>6</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>Playground\Make\Factory</package>
-      <className>Playground\Make\Factory\ServiceProvider</className>
-      <methodName>version</methodName>
-      <methodSignature>version(): string</methodSignature>
-      <fullMethod>version(): string</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
