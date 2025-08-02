@@ -65,7 +65,7 @@ class ServiceProvider extends AuthServiceProvider
     {
         $commands = [];
 
-        // $commands[] = Console\Commands\PostmanMakeCommand::class;
+        $commands[] = Console\Commands\PostmanMakeCommand::class;
 
         $this->commands($commands);
 
