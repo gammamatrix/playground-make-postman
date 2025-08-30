@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2025-08-02 23:54:45</timestamp>
+  <timestamp>2025-08-30 19:59:08</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>39</methodCount>
@@ -114,8 +114,8 @@
       <package>Playground\Make\Postman\Configuration</package>
       <className>Playground\Make\Postman\Configuration\Collection</className>
       <methodName>info</methodName>
-      <methodSignature>info(): ?Playground\Make\Postman\Configuration\Info</methodSignature>
-      <fullMethod>info(): ?Playground\Make\Postman\Configuration\Info</fullMethod>
+      <methodSignature>info(): ?Info</methodSignature>
+      <fullMethod>info(): ?Info</fullMethod>
       <crap>2</crap>
       <complexity>1</complexity>
       <coverage>0</coverage>
