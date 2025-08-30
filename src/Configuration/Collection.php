@@ -1,8 +1,10 @@
 <?php
+
 /**
  * Playground
  */
 declare(strict_types=1);
+
 namespace Playground\Make\Postman\Configuration;
 
 use Playground\Make\Configuration;
@@ -28,7 +30,7 @@ class Collection extends Configuration\Configuration
     ];
 
     /**
-     * @param array<string, mixed> $options
+     * @param  array<string, mixed>  $options
      */
     public function setOptions(array $options = []): self
     {
@@ -128,7 +130,7 @@ class Collection extends Configuration\Configuration
     // }
 
     /**
-     * @param array<string, string> $options
+     * @param  array<string, string>  $options
      */
     public function addAuthenticationSteps(array $options = []): self
     {

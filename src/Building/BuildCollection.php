@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Make\Postman\Building;
 
 use Playground\Make\Postman\Configuration\Collection;
@@ -54,18 +56,18 @@ trait BuildCollection
             $filename
         );
 
-        dd([
-            '__METHOD__' => __METHOD__,
-            '$this->c' => $this->c,
-            '$this->collection' => $this->collection,
-            '$path_resources_packages' => $path_resources_packages,
-            '$filename' => $filename,
-            '$path' => $path,
-            // '$this->controllerPackage' => $this->controllerPackage?->toArray(),
-            // '$this->modelRevision' => $this->modelRevision?->toArray(),
-            // '$this->modelPackage' => $this->modelPackage?->toArray(),
-            // '$this->model' => $this->model?->toArray(),
-        ]);
+//        dd([
+//            '__METHOD__' => __METHOD__,
+//            '$this->c' => $this->c,
+//            '$this->collection' => $this->collection,
+//            '$path_resources_packages' => $path_resources_packages,
+//            '$filename' => $filename,
+//            '$path' => $path,
+//            // '$this->controllerPackage' => $this->controllerPackage?->toArray(),
+//            // '$this->modelRevision' => $this->modelRevision?->toArray(),
+//            // '$this->modelPackage' => $this->modelPackage?->toArray(),
+//            // '$this->model' => $this->model?->toArray(),
+//        ]);
 
         $fullpath = $this->laravel->storagePath().$path;
 

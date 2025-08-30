@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Make\Postman\Console\Commands;
 
 use Illuminate\Support\Str;
@@ -179,7 +181,6 @@ class PostmanMakeCommand extends GeneratorCommand
 
             $this->load_controller_package($controller_package);
             $setOptions['controller_package'] = $controller_package;
-
 
             $setOptions['config'] = $this->controllerPackage->config();
             $setOptions['module'] = $this->controllerPackage->module();
