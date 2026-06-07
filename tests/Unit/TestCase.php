@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Make\Postman;
 
+use Playground\ServiceProvider;
 use Playground\Test\OrchestraTestCase;
 
 /**
@@ -20,7 +21,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Playground\ServiceProvider::class,
+            ServiceProvider::class,
             \Playground\Make\ServiceProvider::class,
             \Playground\Make\Postman\ServiceProvider::class,
         ];
